@@ -39,6 +39,8 @@ List the key features of your project. You can use bullet points for this sectio
 # yarn installation commands
 npm install --global yarn
 ```
+#
+
 ### [react-native-vector-icons](https://github.com/oblador/react-native-vector-icons)
 
 ```bash
@@ -72,7 +74,7 @@ Edit your [MainApplication.java](./android/app/src/main/java/) './android/app/sr
 # package ...
    import com.oblador.vectoricons.VectorIconsPackage;
 ```
-then [if you don't have auto linking find]() <ReactPackage> and add: 
+then [if you don't have auto linking find]() ReactPackage and add: 
 ```bash
 #protected List<ReactPackage> getPackages() {
    #...
@@ -81,6 +83,8 @@ then [if you don't have auto linking find]() <ReactPackage> and add:
 #}
 ```
 [vector-icons example](./src/VectorIcons.js)
+
+#
 
 ### React Navigation
 [React Navigation](https://reactnavigation.org/) is a powerful library for routing and navigation in Expo and React Native apps. It provides seamless navigation experiences, platform-specific look-and-feel, and smooth animations.
@@ -97,7 +101,16 @@ yarn add react-native-screens react-native-safe-area-context @react-navigation/n
 ```
 [Navigation example](./src/Navigation.js)
 
+#
 
+### [Tab navigation](https://reactnavigation.org/docs/tab-based-navigation/)
+
+//image
+```bash
+# add to your project
+yarn add @react-navigation/bottom-tabs
+```
+[Tab navigation example](./src/TabNavigation.js)
 
 
 
