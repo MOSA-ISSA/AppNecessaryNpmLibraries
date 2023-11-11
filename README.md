@@ -22,6 +22,10 @@ pack of my most common and used NPM libraries.
 ## Installation
 
 ### [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
+
+<img src="./assets/yarn.png" alt="yarn logo" style="float: right; margin: 10px;" width="100">
+
+
 [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) is a package manager for JavaScript that aims to be fast, reliable, and secure. It was developed by Facebook in collaboration with other open-source contributors and is designed to be a more efficient alternative to the npm (Node Package Manager) that comes bundled with Node.js.
 
 ```bash
@@ -75,8 +79,13 @@ then [if you don't have auto linking find]() ReactPackage and add:
 
 #
 
+<img src="./assets/react-navigation.png" alt="navigation" style="float: right; margin: 10px;" width="200">
+
 ### [React Navigation](https://reactnavigation.org/)
-[React Navigation](https://reactnavigation.org/) is a powerful library for routing and navigation in Expo and React Native apps. It provides seamless navigation experiences, platform-specific look-and-feel, and smooth animations.
+
+
+
+[React Navigation](https://reactnavigation.org/) is a powerful library for routing and navigation in React Native apps. It provides seamless navigation experiences, platform-specific look-and-feel, and smooth animations.
 
 ```bash
 # React Navigation installation commands
@@ -92,9 +101,10 @@ yarn add react-native-screens react-native-safe-area-context @react-navigation/n
 
 #
 
+<img src="./assets/tabs.gif" alt="tabs logo" style="float: right; margin: 10px;" width="200">
+
 ### [Tab navigation](https://reactnavigation.org/docs/tab-based-navigation/)
 
-//image
 ```bash
 # add to your project
 yarn add @react-navigation/bottom-tabs
@@ -102,6 +112,8 @@ yarn add @react-navigation/bottom-tabs
 [Tab navigation example](./src/TabNavigation.js)
 
 #
+
+<img src="./assets/drawer.gif" alt="drawer" style="float: right; margin: 10px;" width="200">
 
 ### [Drawer navigation example](https://reactnavigation.org/docs/drawer-based-navigation)
 
@@ -129,6 +141,8 @@ import 'react-native-gesture-handler';
 [Drawer navigation example](./src/DrawerNavigation.js)
 
 #
+
+<img src="./assets/lotti.gif" alt="lotti" style="float: right; margin: 3px;" width="100">
 
 ### [lottie-react-native](https://www.npmjs.com/package/lottie-react-native)
 Lottie component for adding animation in your app
