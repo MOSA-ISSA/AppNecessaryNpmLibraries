@@ -3,6 +3,7 @@ import React from 'react'
 import NavigationExample from './src/Navigation'
 import VectorIcons from './src/VectorIcons'
 import TabNavigation from './src/TabNavigation'
+import DrawerNavigation from './src/DrawerNavigation'
 // import TabNavigation from './src/TabNavigation'
 
 
@@ -10,8 +11,9 @@ const App = () => {
   return (
     <View style={{flex:1}}>
       <VectorIcons name={'rocket'}/>
-      {/* <NavigationExample/> */}
+      <NavigationExample/>
       <TabNavigation/>
+      <DrawerNavigation/>
     </View>
   )
 }

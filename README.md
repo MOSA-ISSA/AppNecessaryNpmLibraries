@@ -32,7 +32,7 @@ List the key features of your project. You can use bullet points for this sectio
 
 ## Installation
 
-### yarn
+### [yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable)
 [Yarn](https://classic.yarnpkg.com/lang/en/docs/install/#windows-stable) is a package manager for JavaScript that aims to be fast, reliable, and secure. It was developed by Facebook in collaboration with other open-source contributors and is designed to be a more efficient alternative to the npm (Node Package Manager) that comes bundled with Node.js.
 
 ```bash
@@ -86,7 +86,7 @@ then [if you don't have auto linking find]() ReactPackage and add:
 
 #
 
-### React Navigation
+### [React Navigation](https://reactnavigation.org/)
 [React Navigation](https://reactnavigation.org/) is a powerful library for routing and navigation in Expo and React Native apps. It provides seamless navigation experiences, platform-specific look-and-feel, and smooth animations.
 
 ```bash
@@ -112,11 +112,34 @@ yarn add @react-navigation/bottom-tabs
 ```
 [Tab navigation example](./src/TabNavigation.js)
 
+#
 
-
-Provide instructions on how to install and set up your project. Include any dependencies and the steps needed to get your project up and running.
+### [Drawer navigation](https://reactnavigation.org/docs/drawer-based-navigation)
 
 ```bash
-# Example installation commands
-npm install
+# install
+yarn add @react-navigation/drawer react-native-gesture-handler react-native-reanimated
 ```
+Add react-native-reanimated/plugin plugin to your [babel.config.js](./babel.config.js).
+```bash
+#module.exports = {
+    #presets: [
+      #... // don't add it here :)
+    #],
+    #plugins: [
+      #...
+      'react-native-reanimated/plugin',
+    #],
+  #};
+```
+
+then in the top of [index.js](./index.js) add:
+```bash
+import 'react-native-gesture-handler';
+```
+[Drawer navigation](./src/DrawerNavigation.js)
+
+#
+
+### 
+
