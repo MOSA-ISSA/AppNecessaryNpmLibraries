@@ -7,28 +7,17 @@ pack of my most common and used NPM libraries.
 - [App Necessary Npm Libraries](#App-Necessary-Npm-Libraries)
   - [Table of Contents](#table-of-contents)
   - [NPM libraries](#NPM-libraries)
-  - [Features](#features)
   - [Installation](#installation)
-  - [Usage](#usage)
-  - [Contributing](#contributing)
-  - [License](#license)
-  - [Contact](#contact)
+  <!-- - [Contact](#contact) -->
 
 ## NPM libraries
 
-2. [yarn](#yarn)
-1. [React Navigation](#React_Navigation)
--
-2.
-3.
-
-## Features
-
-List the key features of your project. You can use bullet points for this section.
-
-- Feature 1
-- Feature 2
-- ...
+1. [yarn](#yarn)
+2. [react-native-vector-icons](#react-native-vector-icons)
+3. [React Navigation](#React-Navigation)
+4. [Tab navigation](#Tab-navigation)
+5. [Drawer navigation example](#Drawer-navigation-example)
+6. [lottie-react-native](#lottie-react-native)
 
 ## Installation
 
@@ -114,7 +103,7 @@ yarn add @react-navigation/bottom-tabs
 
 #
 
-### [Drawer navigation](https://reactnavigation.org/docs/drawer-based-navigation)
+### [Drawer navigation example](https://reactnavigation.org/docs/drawer-based-navigation)
 
 ```bash
 # install
@@ -137,9 +126,18 @@ then in the top of [index.js](./index.js) add:
 ```bash
 import 'react-native-gesture-handler';
 ```
-[Drawer navigation](./src/DrawerNavigation.js)
+[Drawer navigation example](./src/DrawerNavigation.js)
 
 #
 
-### 
+### [lottie-react-native](https://www.npmjs.com/package/lottie-react-native)
+Lottie component for adding animation in your app
+
+```bash
+# add to your project
+yarn add lottie-react-native
+```
+[lottie example](./src/Animation.js)
+
+#
 
